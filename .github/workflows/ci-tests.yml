@@ -29,8 +29,8 @@ jobs:
         working-directory: "./"
         run: poetry run pytest tests/
 
-      - name: Lint
-        working-directory: "./"
+      # - name: Lint
+      #   working-directory: "./"
         #run: poetry run pylint --recursive=y .
 
       - name: Configure AWS Credentials
