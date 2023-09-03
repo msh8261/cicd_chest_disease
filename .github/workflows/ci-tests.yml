@@ -1,6 +1,6 @@
 name: ci-tests
 on:
-  pull:
+  push:
     branches: 
       - 'develop'
     paths:
