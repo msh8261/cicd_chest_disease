@@ -1,0 +1,71 @@
+# ignores all .md files
+/*.md
+
+# does not ignore the README.md file
+!README.md
+
+/*.txt
+
+!requirements.txt
+
+# Distribution / packaging
+.Python
+build/
+downloads/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+database.ini
+database.txt
+database.csv
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.cache
+.pytest_cache/
+
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# Rope project settings
+.ropeproject
+
+
+# datafiles
+datasets/*.csv
+datasets/*.zip
+datasets/*.txt
+train.csv
+test.csv
+
+# all logs
+logs/
+
+
+
+.DS_Store
+
+kaggle.json
+/uploads/*
