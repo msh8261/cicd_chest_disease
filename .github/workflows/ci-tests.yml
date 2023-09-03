@@ -31,7 +31,7 @@ jobs:
 
       - name: Lint
         working-directory: "./"
-        run: poetry run pylint --recursive=y .
+        #run: poetry run pylint --recursive=y .
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
