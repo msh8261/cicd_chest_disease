@@ -21,8 +21,8 @@ def train():
 
 @flow(task_runner=ConcurrentTaskRunner())
 def main(config):
-    MLFLOW_EXPERIMENT_NAME = config.MLFLOW_EXPERIMENT_NAME
-    MLFLOW_TRACKING_URI = config.MLFLOW_TRACKING_URI
+    # MLFLOW_EXPERIMENT_NAME = config.MLFLOW_EXPERIMENT_NAME
+    # MLFLOW_TRACKING_URI = config.MLFLOW_TRACKING_URI
     mlflow.set_experiment(MLFLOW_EXPERIMENT_NAME)
     mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 

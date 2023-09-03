@@ -19,8 +19,8 @@ def predict():
 
 @flow(task_runner=ConcurrentTaskRunner())
 def main(config):
-    MLFLOW_EXPERIMENT_NAME = config.MLFLOW_EXPERIMENT_NAME
-    MLFLOW_TRACKING_URI = config.MLFLOW_TRACKING_URI
+    # MLFLOW_EXPERIMENT_NAME = config.MLFLOW_EXPERIMENT_NAME
+    # MLFLOW_TRACKING_URI = config.MLFLOW_TRACKING_URI
 
     load_model()
     predict()
