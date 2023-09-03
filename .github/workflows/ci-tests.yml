@@ -1,8 +1,8 @@
 name: ci-tests
 on:
-  push:
+  pull:
     branches: 
-      - 'main'
+      - 'develop'
     paths:
       - './**'
 env:
